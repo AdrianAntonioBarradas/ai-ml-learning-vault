@@ -12,7 +12,7 @@ tags: [llm, langchain, tools, agents, react, function-calling]
 
 ## Wide picture
 
-Your specific ask: understand LangChain's tool concepts. A **Tool** is a callable with a name, a description, an input schema, and a function. The LLM is given the tool schemas and, given a user request, **decides** to call a tool (producing a structured ToolCall) instead of answering directly. An **agent** is the loop: model → tool call → execute tool → feed result back → model → … until it produces a final answer. This is how an LLM becomes *actuating* rather than just text-generating.
+LangChain's tool concepts in one paragraph: a **Tool** is a callable with a name, a description, an input schema, and a function. The LLM is given the tool schemas and, given a user request, **decides** to call a tool (producing a structured ToolCall) instead of answering directly. An **agent** is the loop: model → tool call → execute tool → feed result back → model → … until it produces a final answer. This is how an LLM becomes *actuating* rather than just text-generating.
 
 ## Essentials
 

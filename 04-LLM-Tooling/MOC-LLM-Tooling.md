@@ -12,11 +12,11 @@ How LLM applications are assembled (frameworks, especially LangChain) and how th
 
 ## LangChain & frameworks
 - [[langchain-concepts]] — LCEL, chains, prompts, models, output parsers, memory, callbacks.
-- [[langchain-tools-and-agents]] — Tool/ToolCall abstraction, ReAct, tool-calling models, agent executors (your specific ask).
+- [[langchain-tools-and-agents]] — Tool/ToolCall abstraction, ReAct, tool-calling models, agent executors.
 - [[langchain-retrievers]] — RAG chains, vectorstore retrievers, compression, multi-query.
 - [[framework-landscape]] — LangChain vs LlamaIndex vs Haystack vs DSPy.
 
-## Standardization (your specific ask)
+## Standardization
 - [[model-standardization]] — safetensors/GGUF/ONNX formats, HF Hub as distribution, the OpenAI-compatible API as the de-facto serving standard, model cards + config.
 - [[tokenizer-standardization]] — BPE/SentencePiece/tiktoken; why tokenization shapes cost and limits.
 - [[reasoning-model-turn-state]] — thinking blocks and thought signatures must be replayed verbatim, or the *next* request fails.

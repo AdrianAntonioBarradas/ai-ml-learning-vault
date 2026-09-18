@@ -19,7 +19,7 @@ The industry digest: how inference systems are actually deployed. From hosted AP
 - [[embedding-models-in-small-containers]] — measured ONNX memory profile; why a 220 MB model needs ~700 MB of RAM.
 - [[batching-caching-scaling]] — continuous batching, KV-cache, autoscaling, prefill/decode split.
 
-## API architectures & concurrency (your specific asks)
+## API architectures & concurrency
 - [[inference-api-architectures]] — REST vs SSE vs webhooks vs WebSocket vs gRPC streaming; async batch jobs.
 - [[streaming-responses]] — token streaming via SSE, how chat UIs consume it.
 - [[multi-user-context-concurrency]] — CRM chatbot scenario: per-user session isolation, Redis/context stores, conversation memory per user, pooling, queueing/backpressure, rate limiting.
