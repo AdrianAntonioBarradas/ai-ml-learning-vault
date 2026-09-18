@@ -11,6 +11,10 @@ tags: [meta, changelog]
 Dated entries describing what changed in the vault. Newest first. When you add or
 update a note in a PR, add a short entry here.
 
+### 2026-09-18 — Added fast.ai course
+
+- [[07-Learning-Path/recommended-resources]] — added fast.ai *Practical Deep Learning for Coders* under Deep learning / LLMs.
+
 ### 2026-09-18 — Initial public release
 
 - First public version of the vault, published under the MIT license.
