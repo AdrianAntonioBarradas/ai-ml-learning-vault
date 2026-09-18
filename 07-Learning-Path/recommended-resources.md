@@ -29,6 +29,7 @@ tags: [learning-path, resources, links]
 
 ## Frameworks / docs (reference)
 - [Hugging Face Docs](https://huggingface.co/docs) · [LangChain](https://python.langchain.com/) · [LangGraph](https://langchain-ai.github.io/langgraph/) · [vLLM](https://docs.vllm.ai/) · [sentence-transformers](https://www.sbert.net/)
+- [LangChain Academy](https://academy.langchain.com/) — free official courses (LangChain, LangGraph, agents, evals) with notebooks; the structured path beyond the docs.
 
 ## Papers / current
 - [Papers with Code](https://paperswithcode.com/) — papers + implementations, SOTAs.
