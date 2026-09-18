@@ -12,7 +12,7 @@ tags: [llm, standardization, formats, hf-hub, onnx, gguf, safetensors]
 
 ## Wide picture
 
-Your specific ask: how is model standardization done? It happens at two levels. (1) **Weight/artifact formats** — `safetensors` (safe, fast, the HF default), `GGUF` (quantised, for Llama.cpp), `ONNX` (cross-runtime). (2) **Distribution + metadata** — the Hugging Face Hub is the de-facto distribution standard, with `config.json` (architecture), `model card` (capabilities/limits), tokenizer files, and revision pinning. (3) **Serving API protocol** — the OpenAI-compatible HTTP API is the de-facto client protocol; almost every server (vLLM, TGI, Ollama, OpenRouter) mimics it, so client code is portable.
+How is model standardization done? It happens at two levels. (1) **Weight/artifact formats** — `safetensors` (safe, fast, the HF default), `GGUF` (quantised, for Llama.cpp), `ONNX` (cross-runtime). (2) **Distribution + metadata** — the Hugging Face Hub is the de-facto distribution standard, with `config.json` (architecture), `model card` (capabilities/limits), tokenizer files, and revision pinning. (3) **Serving API protocol** — the OpenAI-compatible HTTP API is the de-facto client protocol; almost every server (vLLM, TGI, Ollama, OpenRouter) mimics it, so client code is portable.
 
 ## Essentials
 

@@ -1,7 +1,7 @@
 ---
 created: 2026-08-17
-updated: 2026-08-17
-last_reviewed: 2026-08-17
+updated: 2026-09-18
+last_reviewed: 2026-09-18
 status: stable
 tags: [learning-path, resources, links]
 ---
@@ -17,6 +17,7 @@ tags: [learning-path, resources, links]
 
 ## Deep learning / LLMs
 - [Karpathy — Zero to Hero](https://karpathy.ai/zero-to-hero.html) — build neural nets from scratch.
+- [fast.ai — Practical Deep Learning for Coders](https://course.fast.ai/) — free, top-down course: train working models first, then peel back the theory; great for coders.
 - [The Illustrated Transformer (Alammar)](https://jalammar.github.io/illustrated-transformer/) — transformer visual.
 - [Sebastian Raschka — magazine](https://magazine.sebastianraschka.com/) — rigorous LLM fundamentals.
 - [Lilian Weng — Lil'Log](https://lilianweng.github.io/) — deep surveys (RAG, agents, RLHF).
@@ -28,6 +29,7 @@ tags: [learning-path, resources, links]
 
 ## Frameworks / docs (reference)
 - [Hugging Face Docs](https://huggingface.co/docs) · [LangChain](https://python.langchain.com/) · [LangGraph](https://langchain-ai.github.io/langgraph/) · [vLLM](https://docs.vllm.ai/) · [sentence-transformers](https://www.sbert.net/)
+- [LangChain Academy](https://academy.langchain.com/) — free official courses (LangChain, LangGraph, agents, evals) with notebooks; the structured path beyond the docs.
 
 ## Papers / current
 - [Papers with Code](https://paperswithcode.com/) — papers + implementations, SOTAs.
