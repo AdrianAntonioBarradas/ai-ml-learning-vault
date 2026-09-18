@@ -1,0 +1,23 @@
+# Obsidian machine-specific state (keep shared config, ignore per-machine workspace)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/workspace.json
+
+# GitSync Portal device-local sync state (must not sync across devices)
+.obsidian/plugins/gitsync-portal/sync-state.json
+.obsidian/plugins/gitsync-portal/local-sync-state.json
+.obsidian/plugins/gitsync-portal/*.conflict-*
+
+# Keep these (do NOT ignore): .obsidian/app.json, core plugins config, graph.json
+# If you install community plugins and want to share them, commit plugins/*/manifest.json + main.js
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+.trash/
+
+# Helix / local
+.helix/*.log

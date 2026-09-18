@@ -1,0 +1,7 @@
+# Vault-local Helix settings (loaded when `hx` is launched from this directory).
+# The global config (~/.config/helix/config.toml) already enables marksman for
+# markdown, soft-wrap, relative line numbers, etc. These settings tune reading.
+
+[editor]
+scrolloff = 8
+soft-wrap = { enable = true, max-wrap = 25, max-indent-retain = 54 }
